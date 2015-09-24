@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8195" systemVersion="14F27" minimumToolsVersion="Xcode 7.0">
+    <entity name="FavoriteNewsModel" representedClassName="FavoriteNewsModel" isAbstract="YES" syncable="YES">
+        <attribute name="isImage" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="newsImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsUrl" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="FavoriteNewsModel" positionX="-54" positionY="-9" width="128" height="105"/>
+    </elements>
+</model>

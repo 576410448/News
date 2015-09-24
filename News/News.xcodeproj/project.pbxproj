@@ -313,6 +313,7 @@
 		BCE6295C1BAFFC6F00194A7B /* Login_Close.png in Resources */ = {isa = PBXBuildFile; fileRef = BCE6295A1BAFFC6F00194A7B /* Login_Close.png */; settings = {ASSET_TAGS = (); }; };
 		BCE6295D1BAFFC6F00194A7B /* Login_Close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCE6295B1BAFFC6F00194A7B /* Login_Close@2x.png */; settings = {ASSET_TAGS = (); }; };
 		BCE6295F1BB02B3100194A7B /* 缺省图.png in Resources */ = {isa = PBXBuildFile; fileRef = BCE6295E1BB02B3100194A7B /* 缺省图.png */; settings = {ASSET_TAGS = (); }; };
+		BCECD7D01BB418DA001DAC51 /* AA.m in Sources */ = {isa = PBXBuildFile; fileRef = BCECD7CF1BB418DA001DAC51 /* AA.m */; settings = {ASSET_TAGS = (); }; };
 		BCF68CD31B90424F000A9FCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF68CD21B90424F000A9FCA /* main.m */; };
 		BCF68CD61B90424F000A9FCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF68CD51B90424F000A9FCA /* AppDelegate.m */; };
 		BCF68CD91B90424F000A9FCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF68CD81B90424F000A9FCA /* ViewController.m */; };
@@ -736,6 +737,8 @@
 		BCE6295A1BAFFC6F00194A7B /* Login_Close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Login_Close.png; sourceTree = "<group>"; };
 		BCE6295B1BAFFC6F00194A7B /* Login_Close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login_Close@2x.png"; sourceTree = "<group>"; };
 		BCE6295E1BB02B3100194A7B /* 缺省图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "缺省图.png"; sourceTree = "<group>"; };
+		BCECD7CE1BB418DA001DAC51 /* AA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AA.h; sourceTree = "<group>"; };
+		BCECD7CF1BB418DA001DAC51 /* AA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AA.m; sourceTree = "<group>"; };
 		BCF68CCD1B90424F000A9FCA /* News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF68CD11B90424F000A9FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCF68CD21B90424F000A9FCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -1801,6 +1804,8 @@
 			children = (
 				BCF68CEC1B90424F000A9FCA /* NewsTests.m */,
 				BCF68CEA1B90424F000A9FCA /* Supporting Files */,
+				BCECD7CE1BB418DA001DAC51 /* AA.h */,
+				BCECD7CF1BB418DA001DAC51 /* AA.m */,
 			);
 			path = NewsTests;
 			sourceTree = "<group>";
@@ -2246,6 +2251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCF68CED1B90424F000A9FCA /* NewsTests.m in Sources */,
+				BCECD7D01BB418DA001DAC51 /* AA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
